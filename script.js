@@ -14,6 +14,9 @@ const handleClick = () => {
     del_btn.innerHTML = "Delete";
     del_btn.addEventListener("click", function () {
         outputElement.removeChild(newBox);
+        if (outputElement.childNodes.length === 0){
+            outputElement.style.border = "none";
+        }
     });
 
     newBox.classList.add('postIt')
