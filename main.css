@@ -73,6 +73,18 @@ body {
     display: inline-block;
     flex-direction: column;
     margin-bottom: 20px;
+    animation: append-animate .2s linear;
+}
+
+@keyframes append-animate {
+	from {
+		transform: scale(0);
+		opacity: 0;
+	}
+	to {
+		transform: scale(1);
+		opacity: 1;	
+	}
 }
 
 .postIt:hover .btn-menu{
