@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Pacifico&display=swap');
+
+body {
+    background-color: #fefec8;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.input-box {
+
+    height: 175px;
+    width: 220px;
+    border: solid black;
+}
+
+.btn-1 {
+    height: 32px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: #FFBF00;
+    font-family: 'Pacifico', cursive;
+    color: black;
+    transition-duration: 0.4s;
+}
+
+.btn-1:hover {
+    cursor: pointer;
+    background-color: #FF8377;
+}
+
+.base {
+    min-height: 170px;
+    height: fit fit-content;
+    width: fit-content;
+    min-width: 200px;
+    padding: 0 20px;
+    background-color: #fdfd96;
+    display: inline-block;
+    font-weight: 900;
+    color: black;
+    transition: 0.3s;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 20px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: none;
+    border-left-style: solid;
+}
+
+.topBar{
+    margin-top: 20px;
+    flex: 1;
+    height:40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px 15px 0px 0px;
+    background-color:#FFBF00;
+    transition: 0.3s;
+    padding-top: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: none;
+    border-left-style: solid;
+}
+
+.postIt{
+    width: fit-content;
+    min-width: 200px;
+    display: inline-block;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.postIt:hover .btn-menu{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.postIt:hover .topBar{
+    background-color: #FF8377;
+}
+
+#note-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: #ffd394;
+    border-radius: 25px;
+}
+
+.title{
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size:larger;
+}
+
+.logo-img{
+    width: 60px;
+}
+
+.logo-font{
+    font-size:60px
+}
+
+.btn-menu{
+    height: 30px;
+    background-color: #fdfd96;
+    display: flex;
+    margin-bottom: 10px;
+    border-radius: 0px 0px 15px 5px;
+    border-top-style: none;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    justify-content: flex-end;
+    transition: 0.3s;
+}
+
+.del-btn{
+    margin-right: 7px;
+    margin-bottom: 5px;
+    height: px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: #FFBF00;
+    font-family: 'Pacifico', cursive;
+    color: black;
+    transition-duration: 0.4s;
+}
+
+.del-btn:hover {
+    cursor: pointer;
+    background-color: #FF8377;
+}
